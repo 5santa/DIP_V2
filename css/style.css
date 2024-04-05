@@ -1,0 +1,112 @@
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-ul {
+  display: flex;
+}
+
+.nav-blue {
+  font-size: 32px;
+  color: #2a90d9;
+}
+
+.nav-orange {
+  font-size: 32px;
+  color: #ee685f;
+}
+
+.nav-ul__li {
+  list-style: none;
+  margin-right: 40px;
+  font-weight: 500;
+}
+
+.nav-info {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
+.header-wrapper {
+  background: url(/Images/Beach.png) no-repeat center/cover;
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-bottom: 232px;
+  border-radius: 20px;
+}
+
+.header-heading {
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.header-description {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header-booking {
+  width: 450px;
+  background: white;
+  border-radius: 35px;
+  margin: 0 auto;
+  padding: 14px 15px 14px 57px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  top: -33px;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);
+  background: #fff;
+}
+
+.header-booking-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-line {
+  height: 40px;
+  width: 1px;
+  background: black;
+  margin-left: 79px;
+  margin-right: 52px;
+}
+
+.header-search__img {
+  margin-left: 82px;
+}
+
+.header-booking-box {
+  position: relative;
+}
+
+.header-booking-box::before {
+  content: "";
+  position: absolute;
+  background: url(/Images/geo.png) no-repeat center/cover;
+  width: 22px;
+  height: 22px;
+  left: -37px;
+  top: 7px;
+}
+
+.second {
+  position: relative;
+}
+
+.second::before {
+  content: "";
+  position: absolute;
+  background: url(/Images/calendar.png) no-repeat center/cover;
+  width: 22px;
+  height: 22px;
+  left: -37px;
+  top: 7px;
+}
