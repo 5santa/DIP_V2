@@ -131,3 +131,59 @@ background: #fff;
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.offers-title{
+    font-size: 40px;
+    text-align: center;
+}
+.offers-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offers-cards-title{
+    font-size: 22px;
+    font-weight: 500;
+}
+.offers-cards-desc{
+    color: #858585;
+
+}
+.offers-cards-data{
+    font-size: 18px;
+
+}
+.offers-cards-price{
+    color: #2a90d9;
+    font-size: 30px;
+    font-weight: 500;
+}
+.offers-cards-price-count{
+    font-size: 18px;
+    color: #2a90d9;
+}
+.offers-cards-dopinfo{
+    display: flex;
+    align-items: center;
+    column-gap: 21px;
+}
+.offers-cards-dopinfo-items{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.offers-cards-item{
+    border: 1px solid #e7e6eb;
+    border-radius: 12px;
+    padding: 10px;
+}
+.review-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.review-cards-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
