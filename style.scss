@@ -3,6 +3,20 @@
     align-items: center;
     justify-content: space-between;
 }
+.booking-hidden{
+    display: none;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    display: none;
+}
+.burger-line{
+    width: 32px;
+    height: 2px;
+    background: black;
+}
 .nav-ul{
 display:flex
 }
@@ -82,6 +96,9 @@ background: #fff;
     left: -37px;
     top: 7px;
 }
+.booking-hidden{
+    display: none;
+}
 .second{
     position: relative;
 }
@@ -150,7 +167,6 @@ background: #fff;
 }
 .offers-cards-data{
     font-size: 18px;
-
 }
 .offers-cards-price{
     color: #2a90d9;
@@ -186,4 +202,106 @@ background: #fff;
     flex-direction: column;
     align-items: center;
 }
-    
+.footer{
+    background: #f3f2f0;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-author{
+    text-decoration: underline;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+@media(max-width:376px){
+    .nav-ul{
+        display: none;
+    }
+    .nav-info__img:not(:last-child){
+        display: none;
+    }
+    .nav-info__img{
+        margin-left: 89px;
+    }
+    .burger{
+        display: flex;
+        margin-right: 48px;
+    }
+    .nav-wrapper{
+        justify-content: none;
+    }
+    .header-heading{
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    .header-wrapper{
+        padding: 32px 16px;
+    }
+    .header-description{
+        font-size: 16px;
+    }
+    .second{
+        display: none;
+    }
+    .header-line{
+        display: none;
+    }
+    .header-booking{
+        display: none;
+        width: unset;
+    }
+    .booking-hidden{
+        display: flex;
+        position: static;
+    }
+    .choose-title{
+        font-size: 28px;
+    }
+    .choose-text{
+        width: unset;
+        margin-top: 16px;
+    }
+    .choose-cards{
+        margin: 48px 16px;
+        flex-direction: column;
+    }
+    .choose-cards_items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    .choose-h5{
+        margin: 0;
+    }
+    .choose{
+        padding-top: 64px;
+        padding-bottom: 16px;
+    }
+    .offers-title{
+        font-size: 28px;
+    }
+    .offers-cards{
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    .offers-cards-title{
+        text-align: center;
+    }
+    .review-cards{
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    .footer{
+        flex-direction: column;
+        padding:16px;
+        align-items: flex-start;
+    }
+}
